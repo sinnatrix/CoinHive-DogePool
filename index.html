@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>DogePool - Fastest Way To Earn DogeCoins</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">DogePool</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Miner</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">POOL STATS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">TOP USERS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container">
+        <img class="img-fluid" src="img/doge.png" alt="">
+        <div class="intro-text">
+          <span class="name">Doge Pool</span>
+		  <span class="skills">Fastest Way To Earn Doge Coins..</span>
+            
+			<div class="col-lg-5 mx-auto text-center">
+
+			  <p>Donate BTC: 15XiXvKVdMzTN9KTBbEG54rpN22fiyNnaR</p>
+			  <p>Donate Doge: DKZEcaue9XSHwd7jFNZ8j9HUW6c11msyUx </p>
+
+
+            </div>
+
+
+        </div>
+      </div>
+    </header>
+</div>
+    </section>
+
+    <!-- Rules -->
+        <h4 class="text-center">Payments & Rules</h4>
+        <h5 class="text-center">1M Hashes = 500 Doge</h5>
+        <h5 class="text-center">Minimum Payment Threshold: 2000 Doge</h5>
+        <h5 class="text-center">Write Ur Doge Address And Start Mining</h5>
+    </section>
+    <!-- Miner -->
+    <section id="portfolio">
+      <div class="container">
+        <h2 class="text-center">Start Mining</h2>
+        <hr class="star-light">
+        <div class="row">
+          <div class="col-sm-4 portfolio-item">
+              <div class="caption">
+                <div class="caption-content">
+                </div>
+              </div>
+          <div class="box">
+        <h3>hashes/s</h3>
+        <h2 id="hashes-per-second">0</h2>
+          </div>            </a>
+          </div>
+          <div class="col-sm-4 portfolio-item">
+              <div class="caption">
+                <div class="caption-content">
+                </div>
+              </div>
+        <h3>threads</h3>
+        <h2>
+			<span id="threads">2</span>
+			<span id="thread-add" class="action"> + </span>
+			<span class="divide"> / </span>
+			<span id="thread-remove" class="action"> - </span>
+		</h2>            </a>
+          </div>
+          <div class="col-sm-4 portfolio-item">
+              <div class="caption">
+                <div class="caption-content">
+                </div>
+              </div>
+        <h3>Accepted Shares</h3>
+        <h2 id="accepted-shares">0</h2>            </a>
+          </div>
+    <input class="text" type="text" id="username" placeholder="DogeCoin Address">
+       </div>
+	   <div class="row-center">
+
+<button id="start">Start Mining</button>
+<div class="row alignRight">
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="success" id="about">
+      <div class="container">
+        <h2 class="text-center">Pool Stats</h2>
+        <hr class="star-light">
+        <div class="row">
+          <div class="col-lg-4 mx-auto text-center">
+<div class="box alignRight">
+
+  <h2><span class="action" id="chartsLeft">< </span> <span class="action" id="chartsRight"> ></span></h2>
+</div>
+<div class="row">
+    <canvas id="donut-canvas" class="stats" width="50%" height="50%"></canvas>
+</div>
+    <canvas id="barchart-canvas" class="stats" width="50%" height="50%"></canvas>
+	
+	
+	<div class="container">
+  <div class="row">
+    <div class="col flex-unordered">
+        <h4>Pool Shares</h4>
+        <h4 id="pool-hashes">...</h2>
+    </div>
+    <div class="col flex-last">
+        <h4>Pool Hashes/s</h4>
+        <h3 id="pool-hashes-perSecond">...</h3>
+  </div>
+</div>
+    </section>
+
+    <!-- TOP USERS -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="text-center">Top 10 Users</h2>
+        <hr class="star-light">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <div class="list">
+
+			
+<table class="table">
+  <thead class="thead-inverse">
+    <tr>
+      <th class="num">#</th>
+      <th>User</th>
+      <th class="num">Accepted Shares</th>
+    </tr>
+  </thead>
+</tr>
+        </thead>
+        <tbody id="toplist">
+        </tbody>
+    </table>  
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+      <div class="footer-above">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 mx-auto text-center">
+              <h3>Contact</h3>
+              <p>sin.natrix.1@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-below">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              Copyright &copy; Your Website 2017
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top d-lg-none">
+      <a class="btn btn-primary js-scroll-trigger" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/freelancer.min.js"></script>
+	<!-- Miners Scripts --!>
+	    <script src="scripts/coinhive.min.js"></script>
+    <script src="scripts/jquery-3.2.1.min.js"></script>
+    <script src="scripts/miner.js?v1"></script>
+    <script src="scripts/jquery.cookie-1.4.1.min.js"></script>
+
+    <script src="scripts/Chart.min.js"></script>
+
+  </body>
+
+</html>
