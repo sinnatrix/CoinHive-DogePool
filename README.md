@@ -1,2 +1,3 @@
 # CoinHive-DogePool
-Coin Hive Doge Pool Miner
+Check The Demo Soon I Will Uplad The Whole Package 
+www.dogepool.rf.gd
