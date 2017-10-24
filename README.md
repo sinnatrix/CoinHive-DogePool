@@ -1,3 +1,4 @@
 # CoinHive-DogePool
-Check The Demo Soon I Will Uplad The Whole Package 
-www.dogepool.rf.gd
+Check The Demo Donate Some Hashrae
+
+Demo: www.dogepool.rf.gd
